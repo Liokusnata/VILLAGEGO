@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detail Destinasi — VILLAGEGO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Lewati ke konten utama</a>
+
+<header class="navbar is-solid" id="navbar">
+  <div class="container">
+    <a href="index.html" class="navbar-logo">VILLAGE<span>GO</span></a>
+    <nav class="navbar-menu" aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="wisata.html" class="active">Jelajahi</a>
+      <a href="homestay.html">Homestay</a>
+      <a href="guide.html">Tour Guide</a>
+      <a href="umkm.html">UMKM</a>
+      <a href="tentang.html">Tentang Puguk</a>
+    </nav>
+    <div class="navbar-actions">
+      <a href="kunjungan.html" class="btn btn-primary">Rencanakan Kunjungan</a>
+      <button class="navbar-toggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="navbar-scrim"></div>
+<nav class="navbar-mobile-panel" aria-label="Navigasi mobile">
+  <a href="index.html">Beranda</a>
+  <a href="wisata.html" class="active">Jelajahi</a>
+  <a href="homestay.html">Homestay</a>
+  <a href="guide.html">Tour Guide</a>
+  <a href="umkm.html">UMKM</a>
+  <a href="tentang.html">Tentang Puguk</a>
+  <a href="kunjungan.html" class="btn btn-primary">Rencanakan Kunjungan</a>
+</nav>
+
+<main id="main">
+
+  <section class="detail-hero">
+    <img id="d-photo" src="https://picsum.photos/seed/lubuk-sahung/1800/1000" alt="Foto destinasi">
+    <div class="detail-hero-overlay"></div>
+    <div class="container detail-hero-caption">
+      <span class="badge" id="d-category">Wisata Alam</span>
+      <h1 id="d-name">Air Terjun Lubuk Sahung</h1>
+      <span class="card-loc" id="d-location">📍 Desa Puguk, Seluma Utara</span>
+    </div>
+  </section>
+
+  <section class="detail-body">
+    <div class="container">
+      <div class="detail-grid">
+        <div>
+          <div class="detail-block">
+            <h2>Deskripsi</h2>
+            <p id="d-desc">Destinasi air terjun dengan suasana alam yang menawarkan pengalaman menikmati keindahan lingkungan Puguk.</p>
+          </div>
+
+          <div class="detail-block">
+            <h2>Keunikan</h2>
+            <p id="d-keunikan">Informasi segera tersedia.</p>
+          </div>
+
+          <div class="detail-block">
+            <h2>Fasilitas</h2>
+            <ul class="detail-list" id="d-fasilitas">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17h14M5 17a2 2 0 0 1-2-2v-3l2-5h14l2 5v3a2 2 0 0 1-2 2"></path></svg> Tempat parkir</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"></path></svg> Mushola</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12H7L6 8Z"></path></svg> Kios suvenir</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"></circle></svg> Informasi segera tersedia</li>
+            </ul>
+          </div>
+
+          <div class="detail-block">
+            <h2>Galeri Foto</h2>
+            <div class="gallery-strip" id="d-gallery">
+              <img src="https://picsum.photos/seed/lubuk-sahung-g1/400/400" alt="Galeri destinasi 1">
+              <img src="https://picsum.photos/seed/lubuk-sahung-g2/400/400" alt="Galeri destinasi 2">
+              <img src="https://picsum.photos/seed/lubuk-sahung-g3/400/400" alt="Galeri destinasi 3">
+            </div>
+          </div>
+
+          <div class="detail-block">
+            <h2>Peta Lokasi</h2>
+            <div class="map-frame" style="min-height:320px;">
+              <iframe src="https://www.google.com/maps?q=Desa+Puguk,+Seluma+Utara,+Kabupaten+Seluma,+Bengkulu&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Peta lokasi destinasi"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <aside class="detail-sidebar">
+          <h3>Informasi Kunjungan</h3>
+          <p class="info-empty">Jam operasional & tiket masuk: informasi segera tersedia</p>
+          <div style="margin-top:24px; display:flex; flex-direction:column; gap:12px;">
+            <a href="guide.html" class="btn btn-forest btn-block">Cari Tour Guide</a>
+            <a href="kunjungan.html" class="btn btn-ghost btn-block">Rencanakan Kunjungan</a>
+          </div>
+          <p class="detail-sidebar-note">Data akan diperbarui secara berkala oleh pengelola VILLAGEGO.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="navbar-logo" style="color:#fff;">VILLAGE<span style="color:var(--color-orange)">GO</span></a>
+        <p>Jelajahi Desa, Rasakan Ceritanya. Platform digital untuk menjelajahi wisata alam, budaya, dan masyarakat Desa Puguk, Seluma.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram VILLAGEGO"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg></a>
+          <a href="#" aria-label="Facebook VILLAGEGO"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 9h3V6h-3a3 3 0 0 0-3 3v2H8v3h3v6h3v-6h3l1-3h-4V9a1 1 0 0 1 1-1Z"></path></svg></a>
+          <a href="#" aria-label="YouTube VILLAGEGO"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="4"></rect><polygon points="10 9 15 12 10 15 10 9" fill="currentColor" stroke="none"></polygon></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h5>Jelajahi</h5><ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="wisata.html">Jelajahi</a></li>
+        <li><a href="homestay.html">Homestay</a></li>
+        <li><a href="guide.html">Tour Guide</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Informasi</h5><ul>
+        <li><a href="umkm.html">UMKM</a></li>
+        <li><a href="tentang.html">Tentang Puguk</a></li>
+        <li><a href="kunjungan.html">Rencanakan Kunjungan</a></li>
+        <li><a href="galeri.html">Galeri</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Kontak</h5><ul>
+        <li>Desa Puguk, Kec. Seluma Utara</li>
+        <li>Kabupaten Seluma, Bengkulu</li>
+        <li>Informasi segera tersedia</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">© 2026 VILLAGEGO — Puguk Tourism</div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+  /* Data destinasi sementara — nantinya dapat diganti dengan data dari backend/CMS.
+     Halaman ini membaca parameter ?id= pada URL untuk menampilkan destinasi terkait. */
+  var destinasiData = {
+    "lubuk-sahung": {
+      category: "Wisata Alam",
+      name: "Air Terjun Lubuk Sahung",
+      location: "📍 Desa Puguk, Seluma Utara",
+      desc: "Destinasi air terjun dengan suasana alam yang menawarkan pengalaman menikmati keindahan lingkungan Puguk.",
+      photo: "https://picsum.photos/seed/lubuk-sahung/1800/1000",
+      gallery: ["lubuk-sahung-g1", "lubuk-sahung-g2", "lubuk-sahung-g3"]
+    },
+    "air-ulu-seluma": {
+      category: "Wisata Sungai",
+      name: "Air Ulu Seluma",
+      location: "📍 Desa Puguk, Seluma Utara",
+      desc: "Pemandian sungai dengan air yang jernih dan suasana alam yang memberikan pengalaman wisata yang dekat dengan lingkungan masyarakat lokal.",
+      photo: "https://picsum.photos/seed/air-ulu-seluma/1800/1000",
+      gallery: ["air-ulu-seluma-g1", "air-ulu-seluma-g2", "air-ulu-seluma-g3"]
+    },
+    "warisan-serawai": {
+      category: "Budaya",
+      name: "Warisan Serawai",
+      location: "📍 Desa Puguk, Seluma Utara",
+      desc: "Mengenal tradisi, kesenian, sejarah, dan kehidupan masyarakat Serawai yang menjadi identitas budaya Puguk — dari kesenian hingga makanan khas.",
+      photo: "https://picsum.photos/seed/warisan-serawai/1800/1000",
+      gallery: ["warisan-serawai-g1", "warisan-serawai-g2", "warisan-serawai-g3"]
+    }
+  };
+
+  (function () {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get('id');
+    var data = destinasiData[id];
+    if (!data) return; // gunakan konten default (Lubuk Sahung) jika id tidak ditemukan
+
+    document.getElementById('d-photo').src = data.photo;
+    document.getElementById('d-category').textContent = data.category;
+    document.getElementById('d-name').textContent = data.name;
+    document.getElementById('d-location').textContent = data.location;
+    document.getElementById('d-desc').textContent = data.desc;
+    document.title = data.name + ' — VILLAGEGO';
+
+    var galleryEl = document.getElementById('d-gallery');
+    galleryEl.innerHTML = '';
+    data.gallery.forEach(function (seed, i) {
+      var img = document.createElement('img');
+      img.src = 'https://picsum.photos/seed/' + seed + '/400/400';
+      img.alt = data.name + ' - foto ' + (i + 1);
+      galleryEl.appendChild(img);
+    });
+  })();
+</script>
+</body>
+</html>
